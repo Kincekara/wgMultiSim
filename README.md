@@ -61,7 +61,7 @@ git clone https://github.com/Kincekara/wgMultiSim.git
 
 ```bash
 # Run the workflow with NCBI accession
-miniwdl run /path/to/wf_wgmultisim.wdl prefix=sample_id accession=GCF_000005845.2
+miniwdl run /path/to/wf_wgmultisim.wdl prefix=sample_id accession=GCA_046272035.1
 ```
 Alternatively,
 ```bash
@@ -69,7 +69,7 @@ Alternatively,
 miniwdl run /path/to/wf_wgmultisim.wdl prefix=sample_id reference=/path/to/reference.fasta
 
 # Run the workflow with accession & hifi only 
-miniwdl run /path/to/wf_wgmultisim.wdl prefix=sample_id accession=GCF_000005845.2 short_reads=false
+miniwdl run /path/to/wf_wgmultisim.wdl prefix=sample_id accession=GCA_046272035.1 short_reads=false
 
 # Run the workflow with local reference & short reads only
 miniwdl run /path/to/wf_wgmultisim.wdl prefix=sample_id reference=/path/to/reference.fasta hifi=false short_read_depth=30
