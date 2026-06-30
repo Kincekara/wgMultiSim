@@ -36,7 +36,7 @@ workflow wgmultisim {
             description: "Depth of coverage for PacBio HiFi reads."
         }
         short_reads: {
-            description: "Whether to generate Illumina short reads"
+            description: "Whether to generate Illumina short reads",
             patterns: ["true", "false"],
             default: "true"
         }
