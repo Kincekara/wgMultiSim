@@ -1,0 +1,10 @@
+version: 1.2
+workflows:
+  - name: wgMultiSim
+    subclass: WDL
+    primaryDescriptorPath: /workflows/wf_wgmultisim.wdl
+    testParameterFiles:
+      - /assets/empty.json
+    authors:
+      - orcid: 0000-0001-7915-9847
+    topic: Simulate PacBio HiFi and Illumina short reads for bacterial genomes
