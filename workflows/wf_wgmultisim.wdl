@@ -20,16 +20,16 @@ workflow wgmultisim {
             description: "Prefix for output files"
         }
         reference: {
-            description: "Reference genome in fasta format. If not provided, accession must be provided."
+            description: "Reference genome in fasta format. If not provided, accession must be provided.",
             patterns: ["*.fasta", "*.fna", "*.fa"]
         }
         accession: {
-            description: "NCBI accession number of the reference genome. If not provided, reference must be provided."
+            description: "NCBI accession number of the reference genome. If not provided, reference must be provided.",
             patterns: ["^GC[A|F]_[0-9]{9}\.[0-9]+"]
         }
         pacbio_hifi_reads: {
-            description: "Whether to generate PacBio HiFi reads"
-            patterns: ["true", "false"]
+            description: "Whether to generate PacBio HiFi reads",
+            patterns: ["true", "false"],
             default: "true"
         }
         hifi_depth: {
@@ -37,7 +37,7 @@ workflow wgmultisim {
         }
         short_reads: {
             description: "Whether to generate Illumina short reads"
-            patterns: ["true", "false"]
+            patterns: ["true", "false"],
             default: "true"
         }
         short_read_depth: {
