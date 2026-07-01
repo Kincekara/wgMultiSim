@@ -5,6 +5,8 @@
 [![Cromwell](https://img.shields.io/badge/Cromwell-Workflow%20Engine-blue)](https://cromwell.readthedocs.io/en/stable/)
 [![MiniWDL](https://img.shields.io/badge/MiniWDL-Workflow%20Engine-yellow)](https://miniwdl.readthedocs.io/en/latest/)
 [![CI](https://github.com/Kincekara/wgMultiSim/actions/workflows/check-wdl.yml/badge.svg)](https://github.com/Kincekara/wgMultiSim/actions/workflows/check-wdl.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21105019.svg)](https://doi.org/10.5281/zenodo.21105019)
+
 
 wgMultiSim is a WDL workflow for simulating bacterial whole genome sequencing data. It generates PacBio HiFi and/or Illumina paired-end short reads from a reference genome or an NCBI accession.
 
