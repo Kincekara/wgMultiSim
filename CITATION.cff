@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+- family-names: "Incekara"
+  given-names: "Kutluhan"
+  orcid: "https://orcid.org/0000-0001-7915-9847"
+title: "wgMultiSim: A WDL workflow for simulating bacterial whole genome sequencing data"
+abstract: "wgMultiSim is a WDL workflow for simulating bacterial whole genome sequencing data. It generates PacBio HiFi and/or Illumina paired-end short reads from a reference genome or an NCBI accession."
+keywords:
+- "simulated reads"
+- "pacbio hifi"
+- "illumina"
+- "whole genome sequencing"
+license: "MIT"
+repository-code: "https://github.com/Kincekara/wgMultiSim"
+version: 0.1.0
+doi: 10.5281/zenodo.21105019
+date-released: 2026-07-01
+url: "https://github.com/Kincekara/wgMultiSim"
